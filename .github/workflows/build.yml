@@ -99,7 +99,7 @@ jobs:
         #env: 
           #SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
         #if: ${{ env.SIGNING_KEY != '' }}
-        uses: actions/upload-artifact@vmain
+        uses: actions/upload-artifact@main
         with:
           name: APatch
           path: app/build/outputs/apk/release/*.apk
